@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "vue": "^3.2.25",
-    "vuedraggable": "^2.24.3"
+    "vuedraggable": "^2.24.3",
+    "sass": "^1.43.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",

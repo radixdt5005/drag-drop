@@ -1,5 +1,8 @@
 <template>
   <div class="row">
+    <div>
+      <h1 class="text-center hover:text-left">Hello World</h1>
+    </div>
     <div class="col-2">
       <div class="form-group">
         <div
@@ -7,11 +10,11 @@
           role="group"
           aria-label="Basic example"
         >
-          <button class="btn btn-secondary" @click="add">Add</button>
+          <button class="btn px-8" @click="add">Add</button>
           <button class="btn btn-secondary" @click="replace">Replace</button>
         </div>
 
-        <div class="form-check">
+        <!-- <div class="form-check">
           <input
             id="disabled"
             type="checkbox"
@@ -19,7 +22,7 @@
             class="form-check-input"
           />
           <label class="form-check-label" for="disabled">DnD enabled</label>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -86,7 +89,7 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style>
 .buttons {
   margin-top: 35px;
 }

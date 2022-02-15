@@ -10,7 +10,9 @@ export default{
 </script>
 
 <template>
+<div class="bg-red-500">
   <HelloWorld />
+</div>
 </template>
 
 <style>
